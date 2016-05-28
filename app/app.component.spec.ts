@@ -18,7 +18,7 @@ import { PromiseWrapper } from '@angular/core/src/facade/promise';
 ////////  SPECS  /////////////
 
 /// Delete this
-describe('Smoke test', () => {
+/*describe('Smoke test', () => {
   it('should run a passing test', () => {
     expect(true).toEqual(true, 'should pass');
   });
@@ -55,3 +55,4 @@ describe('AppComponent with TCB', function () {
 
   })));
 });
+*/
