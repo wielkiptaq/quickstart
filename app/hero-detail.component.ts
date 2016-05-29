@@ -2,10 +2,13 @@ import { Component, Input, Output, OnInit, EventEmitter } from '@angular/core';
 import { RouteParams } from '@angular/router-deprecated';
 import { Hero }        from './hero';
 import { HeroService } from './hero.service';
+import {InputText, Button} from 'primeng/primeng';
+
 @Component({
 	selector: 'my-hero-detail',
 	templateUrl: 'app/hero-detail.component.html',
-	styleUrls: ['app/hero-detail.component.css']
+	styleUrls: ['app/hero-detail.component.css'],
+  directives: [InputText, Button]
 })
 export class HeroDetailComponent implements OnInit {
 	@Input() hero: Hero;
